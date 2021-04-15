@@ -17,24 +17,24 @@ tensorflow-hub0.8.0
 #### 02-部署步骤
 ##### 特征抽取
 ```
-sh 01run_classifier.sh
+sh scripts/run_classifier.sh
 ```
 ##### 分类任务
 ```
-sh 01run_classifier.sh
+sh scripts/run_classifier.sh
 ```
 ##### SQUAD
 ```
-sh 02run_squad.sh
+sh scripts/run_squad.sh
 ```
 ##### 自行定义训练
 ```
-sh 03create_pretraining_data.sh
-sh 04run_pretraining.sh
+sh scripts/create_pretraining_data.sh
+sh scripts/run_pretraining.sh
 ```
 ##### tensorflow-hub的使用
 ```
-sh 05run_classifier_with_tfhub.sh
+sh scripts/run_classifier_with_tfhub.sh
 ```
 #### 03-目录结构描述
 ```
